@@ -1,0 +1,37 @@
+.login-wrapper{
+    background: #fafafa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper>.login-form{
+    min-width: 40%;
+    padding: 2rem;
+    background: #FFFFFF;
+    border-radius: .24rem;
+    -webkit-border-radius: 2px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  
+}
+.login-wrapper .tagline{
+    text-align: center;
+    font-weight: 500;
+
+}
+.login-wrapper>.login-form>.logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+}
+.login-wrapper>.login-form>.logo-wrapper .company-logo{
+    max-width: 180px;
+}
+@media(max-width:1000px){
+    .login-wrapper>.login-form{
+        min-width: 80%;
+    }
+}
